@@ -6,7 +6,7 @@ const Home = ({ onSearch }) => {
 
     const handleSearch = async () => {
         try {
-            const response = await axios.get('http://localhost:8000/api/songs', {
+            const response = await axios.get('https://musicplayer-6hmo.onrender.com/api/songs', {
                 params: { query }
             });
             onSearch(response.data);
