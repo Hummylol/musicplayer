@@ -1,0 +1,29 @@
+cd backend
+
+npm i mongoose express cors 
+npm i --save-dev nodemon
+
+
+cd ..
+
+npm create vite@latest frontend
+cd frontend
+npm install
+npm run dev
+npm run build
+
+
+GIT UPLOAD
+
+
+BACKEND in RENDER
+
+./backend 
+
+npm install
+node index.js
+
+FRONTEND on VERCEL
+
+dir:/frontend
+
