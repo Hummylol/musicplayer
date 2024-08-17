@@ -2,7 +2,7 @@ import React from 'react'
 
 const MoreArtists = () => {
   return (
-    <div>MoreArtists</div>
+    <div className='h-[100vh] width-[100vw] bg-white ' >MoreArtists</div>
   )
 }
 
