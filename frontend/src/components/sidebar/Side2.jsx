@@ -3,7 +3,7 @@ import React from 'react'
 const Side2 = () => {
   return (
     <div className='h-[73%] w-full mt-2 ml-2 rounded-lg text-white bg-[#121212] flex flex-col items-center'>
-      <div className="lib h-[10%] mt-3 w-[85%] " >
+      <div className="lib h-[15%] mt-3 w-[85%] " >
         <div className="flex justify-between items-center">
           <div className="flex items-center gap-3">
           <svg data-encore-id="icon" fill='#cecece' height={"26px"} width={"26px"} role="img" aria-hidden="true" viewBox="0 0 24 24" className="Svg-sc-ytk21e-0 bneLcE">
@@ -14,7 +14,7 @@ const Side2 = () => {
           <svg fill='#cecece' height={"17px"} width={"17px"} data-encore-id="icon" role="img" aria-hidden="true" viewBox="0 0 16 16" class="Svg-sc-ytk21e-0 dYnaPI"><path d="M15.25 8a.75.75 0 0 1-.75.75H8.75v5.75a.75.75 0 0 1-1.5 0V8.75H1.5a.75.75 0 0 1 0-1.5h5.75V1.5a.75.75 0 0 1 1.5 0v5.75h5.75a.75.75 0 0 1 .75.75z"></path></svg>
         </div>
       </div>
-      <div className="playlists h-[20%] overflow-y-scroll w-[96%] rounded-lg bg-[#1F1F1F] p-4 pt-8">
+      <div className="playlists h-[15%] overflow-y-scroll w-[96%] rounded-lg bg-[#1F1F1F] p-4 pt-4">
       <div className='text-white font-medium'>Create your first playlist</div>
       <div className="text-sm mt-2">it's easy,we'll help you</div>
       <button className='bg-white text-black pl-3 pr-3 pt-1 pb-1 rounded-full text-sm font-semibold mt-3'>Create playlist</button>

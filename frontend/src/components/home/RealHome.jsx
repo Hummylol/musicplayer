@@ -4,7 +4,7 @@ import Side2 from '../sidebar/Side2'
 import Hero from '../HeroSection/Hero'
 
 const RealHome = () => {
-  return (
+  return (    
     <div className='bg-black pt-2 h-[100vh] w-[100vw] flex'>
         <div className="sidebar flex flex-col gap- h-[100%] w-[22%]">
             <Side1/>

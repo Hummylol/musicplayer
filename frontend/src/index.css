@@ -8,52 +8,8 @@
     font-family: poppins;
 
 }
-.search{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    .search-box{
-        border-radius: 20px;
-        padding: 1rem;
-        border: none;
-        font-size: 1.5rem;
-        color: rgb(68, 68, 68);
-    }
-    .search-button{
-        width: 4rem;
-        height: 4rem;
-        border-radius: 100px;
-        padding: 1rem;
-        border: 1px solid white;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        img{
-        filter: invert(1);
-        }
-    }
-    
-}
 
-.player-cont{
-    display: flex;
-    justify-content: center;
-    .name{
-        margin-top: 2rem;
-        text-align: center;
-    }
-    .art-name{
-        color: rgb(179, 179, 179);
-        text-align: center;
-    }
-    .player{
-        margin-top: 2rem;
-        width: 40vw;
-        filter:invert(1);
-    }
-}
-
-.icon-container {
+.icon-container{
     width: 30px; 
     height: 30px; 
     background-color: #050505;
@@ -91,7 +47,6 @@
     border-radius: 10px;
   }
   
-  /* Add some extra styles to make it more similar to Spotify's scrollbar */
   ::-webkit-scrollbar-corner {
     background-color: transparent;
   }
@@ -111,7 +66,6 @@
     position: absolute;
     bottom: -50px;
     right: 0;
-
     transition: all ease;
   }
   
