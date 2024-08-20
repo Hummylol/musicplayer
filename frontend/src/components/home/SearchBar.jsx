@@ -22,15 +22,15 @@ const SearchBar = ({ onSearch }) => {
     };
 
     return (
-        <div className='search flex items-center'>
-            <input className='search-box p-2 text-white rounded-full bg-[#242424] text-sm focus:border-2 active:border-white outline-none'
+        <div className='search flex items-center mt-1 mb-1'>
+            <input className='search-box p-2 ml-4 text-white rounded-full bg-[#242424] text-sm active:border-white outline-none'
                 type="text"
                 value={query}
                 onKeyPress={handleKeyPress}
                 onChange={(e) => setQuery(e.target.value)}
                 placeholder="what do you want to play?"
             />
-            <button className='search-button' onClick={handleSearch}><img src="https://img.icons8.com/?size=100&id=59878&format=png&color=000000" height={"30px"} width={"30px"} alt="" /></button>
+            <button className='search-button invert ml-3' onClick={handleSearch}><img src="https://img.icons8.com/?size=100&id=59878&format=png&color=000000" height={"25px"} width={"25px"} alt="" /></button>
         </div>
     );
 };
